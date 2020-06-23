@@ -6,8 +6,58 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>This is HTML forms tutorial</h1>
     <form action="backend.php">
-        
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Mobile Number: <input type="number" name="mobileNumber">
+        </div>
+        <br>
+        <div>
+            Birth Date: <input type="date" name="birthDate">
+        </div>
+        <br>
+        <!-- checkbox button codeing -->
+        <div>
+            Are you eligible? <input type="checkbox" name="eligible">
+        </div>
+        <br>
+        <!-- radio button codeing -->
+        <div>
+            Gender: Male <input type="radio" name="gender">
+            Female <input type="radio" name="gender">
+        </div>
+        <br>
+        <div>
+            any comment write here: <br> <textarea name="comment" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <!-- option button coddeing -->
+        <div>
+            <label for="position">
+                <select name="myPosition" id="position">
+                    <option value="fontend">FontEnd Developer</option>
+                    <option value="backend">BackEnd Developer</option>
+                    <option value="fullstack">FullStack Developer</option>
+                </select>
+            </label>
+        </div>    
+        <br>
+        <div>
+            <input type="submit" value="submitNow">
+            <input type="reset" value="resetNow">
+        </div>    
     </form>
 </body>
 </html>
